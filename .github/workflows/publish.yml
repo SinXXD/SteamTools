@@ -6,6 +6,7 @@ env:
   PublishFilePath: C:\PublishFiles
 
 on:
+  workflow_dispatch:  
   push:
     tags:
       - '*'
